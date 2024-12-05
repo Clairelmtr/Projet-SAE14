@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/0acb75a9e8.js" crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style3.css" rel="stylesheet" />
+  <title>Réservation de Billets</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Réservez vos Billets pour les Concerts</h1>
+        <nav class="container">
+            <li><a class="btn" href="index.html">Accueil</a></li>
+            <li><a class="btn" href="page2.html">Événements</a></li>
+            <li><a class="btn" href="page3.html"><i class="fas fa-shopping-cart"></i></a></li>
+            <li><a class="btn" href="page4.html">A Propos</a></li>
+        </nav>
+    </header>
+
+    <!-- Formulaire de réservation -->
+    <section id="reservation-form">
+        <h2>Réservez vos billets maintenant</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="concert">Choisissez l'événement :</label>
+                <select id="concert" name="concert" required>
+                    <option value="Toronto">Concert Toronto - Hans Zimmer</option>
+                    <option value="Paris">Concert Paris - Hans Zimmer et John Williams</option>
+                    <option value="Prague">Concert Prague - John Williams</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Nombre de places :</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Nom complet :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <button type="submit" class="cta-btn">Confirmer la réservation</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ConcertTickets - Tous droits réservés</p>
+        <p>Email : contact@concerttickets.com</p>
+        <p>Tel : 02 23 72 41 97</p>
+    </footer>
+
+</body>
+</html>

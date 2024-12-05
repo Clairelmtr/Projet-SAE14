@@ -1,0 +1,184 @@
+/* ------------------------ Section Intro -------------------------- */
+#intro {
+    text-align: center;
+    margin: 40px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fond légèrement transparent pour contraster avec le fond d'image */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#intro .highlight {
+    font-weight: bold; /* Mettre en gras */
+    font-size: 1.2em; /* Agrandissement du texte */
+    color: #fdfdfd; 
+    display: inline-block; /* Empêche le texte de se casser avec les autres lignes */
+    animation: highlightFadeIn 2s ease-in-out;
+}
+
+@keyframes highlightFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* --------------------- Section des compositeurs ------------------- */
+#composers {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+#composers h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+figure {
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+}
+
+figure img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #fff;
+}
+
+figcaption {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/* ----------------------- Section Événements --------------------- */
+#events {
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+    color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#events h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.event-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.event {
+    background-color: rgb(78, 78, 78);
+    margin: 20px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.event:hover {
+    transform: translateY(-10px);
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.event h3 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.event p {
+    margin-bottom: 15px;
+}
+
+.event .btn {
+    margin-top: 10px;
+    background-color: #6b6868;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.event .btn:hover {
+    background-color: #353434;
+}
+
+/* ----------------------- Formulaire de réservation ----------------------- */
+#buy {
+    padding: 40px 20px;
+    background-color: #fff;
+    color: #333;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#buy h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    font-size: 1rem;
+}
+
+.cta-btn {
+    background-color: #da230b;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #24a006;
+}
+
+
+

@@ -1,0 +1,98 @@
+/* Corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+/* Navigation */
+nav .container {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav .container li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav .container a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Détails des événements */
+#event-details {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.event-detail {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-detail h3 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.event-detail img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.event-detail p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.event-detail ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.event-detail ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.event-detail .highlight {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.event-detail a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}

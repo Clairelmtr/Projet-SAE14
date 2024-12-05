@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/0acb75a9e8.js" crossorigin="anonymous"></script>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/style1.css" rel="stylesheet" />
+  <title>Accueil</title>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1> Concerts : John Williams et Hans Zimmer</h1>
+        <nav class="container">
+            <li><a class="btn" href="index.html">Accueil </a></li>
+            <li><a class="btn" href="page2.html">Événements </a></li>
+            <li><a class="btn" href="page3.html"><i class="fas fa-shopping-cart"></i> </a></li>
+            <li><a class="btn" href="page4.html">A Propos</a></li>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section id="intro">
+        <p>
+            <span class="highlight">Venez découvrir deux grands compositeurs de films : Hans Zimmer et John Williams !</span><br>
+            Il y a des centaines de compositeurs de films, mais ils sont assez discrets dans la vie de tous les jours.<br>
+            On peut regarder des films et entendre des musiques qui vont parfois nous marquer, mais on ne sait pas réellement qui se cache derrière les écrans.<br>
+            Alors c'est le moment pour prendre sont billet pour venir voir leurs musiques incontournables.
+        </p>
+    </section>
+
+    <!-- Présentation des compositeurs -->
+    <section id="composers">
+        <div>
+            <h2>Les Compositeurs</h2>
+            <figure>
+                <div>
+                    <img src="img/Hans Zimmer.jpg" alt="Hans Zimmer">
+                    <figcaption>Hans Zimmer</figcaption>
+                </div>
+                <div>
+                    <img src="img/John Williams.jpg" alt="John Williams">
+                    <figcaption>John Williams</figcaption>
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <!-- Section des événements à venir -->
+    <section id="events">
+        <h2>Événements à venir</h2>
+        <div class="event-list">
+            <!-- Événement 1 -->
+            <div class="event">
+                <img src="img/concert hans zimmer.jpg" alt="Concert Rock">
+                <h3>Concert Toronto - Hans Zimmer</h3>
+                <p>Samedi 20 octobre 2024, Canada</p>
+                <a href="#buy" class="btn">Réservez vos places</a>
+            </div>
+
+            <!-- Événement 2 -->
+            <div class="event">
+                <img src="img/concert des 2.jpg" alt="Concert Pop">
+                <h3>Concert Paris - Hans Zimmer et John Williams</h3>
+                <p>Samedi 1er février 2025, Paris</p>
+                <a href="#buy" class="btn">Réservez vos places</a>
+            </div>
+
+            <!-- Événement 3 -->
+            <div class="event">
+                <img src="img/concert john williams.jpg" alt="Concert Electro">
+                <h3>Concert Prague - John Williams</h3>
+                <p>Vendredi 5 janvier 2025, Prague</p>
+                <a href="#buy" class="btn">Réservez vos places</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section d'achat de billets -->
+    <section id="buy">
+        <h2>Achetez vos billets</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="concert">Choisir une date de concert :</label>
+                <select id="concert" name="concert" required>
+                    <option value="Toronto">Concert Toronto - Hans Zimmer</option>
+                    <option value="Paris">Concert Paris - Hans Zimmer et John Williams</option>
+                    <option value="Prague">Concert Prague - John Williams</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Nombre de places :</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="name">Nom complet :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <button type="submit" class="cta-btn">Réserver maintenant</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ConcertTickets - Tous droits réservés</p>
+        <p>Email : contact@concerttickets.com</p>
+        <p>Tel : 02 23 72 41 97</p>
+    </footer>
+
+</body>
+</html>
