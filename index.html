@@ -15,10 +15,12 @@
     <header>
         <h1> Concerts : John Williams et Hans Zimmer</h1>
         <nav class="container">
-            <li><a class="btn" href="index.html">Accueil </a></li>
-            <li><a class="btn" href="page2.html">Événements </a></li>
-            <li><a class="btn" href="page3.html"><i class="fas fa-shopping-cart"></i> </a></li>
-            <li><a class="btn" href="page4.html">A Propos</a></li>
+            <ul>
+                <li><a class="btn" href="index.html">Accueil</a></li>
+                <li><a class="btn" href="page2.html">Événements</a></li>
+                <li><a class="btn" href="page3.html"><i class="fas fa-shopping-cart"></i></a></li>
+                <li><a class="btn" href="page4.html">A Propos</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -39,11 +41,15 @@
             <figure>
                 <div>
                     <img src="img/Hans Zimmer.jpg" alt="Hans Zimmer">
-                    <figcaption>Hans Zimmer</figcaption>
+                    <figcaption>
+                        <a href="https://fr.wikipedia.org/wiki/Hans_Zimmer" target="_blank" class="composer-link" title="Hans Zimmer sur Wikipédia">Hans Zimmer</a>
+                    </figcaption>
                 </div>
                 <div>
                     <img src="img/John Williams.jpg" alt="John Williams">
-                    <figcaption>John Williams</figcaption>
+                    <figcaption>
+                        <a href="https://fr.wikipedia.org/wiki/John_Williams" target="_blank" class="composer-link" title="John Williams sur Wikipédia">John Williams</a>
+                    </figcaption>
                 </div>
             </figure>
         </div>
@@ -80,35 +86,31 @@
     </section>
 
     <!-- Section d'achat de billets -->
-    <section id="buy">
-        <h2>Achetez vos billets</h2>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="concert">Choisir une date de concert :</label>
-                <select id="concert" name="concert" required>
-                    <option value="Toronto">Concert Toronto - Hans Zimmer</option>
-                    <option value="Paris">Concert Paris - Hans Zimmer et John Williams</option>
-                    <option value="Prague">Concert Prague - John Williams</option>
-                </select>
+    <section id="testimonials">
+        <h2>Avis des Spectateurs</h2>
+        <div class="testimonial-list">
+            <!-- Témoignage 1 -->
+            <div class="testimonial">
+                <img src="img/testimonial1.jpg" alt="Spectateur 1">
+                <p>"Un concert magique ! Hans Zimmer et John Williams ont vraiment ébloui la foule avec leurs compositions. Une expérience inoubliable. 
+                    Je recommande vivement !"</p>
+                <p class="author">Marie Dupont, Paris</p>
             </div>
-
-            <div class="form-group">
-                <label for="quantity">Nombre de places :</label>
-                <input type="number" id="quantity" name="quantity" min="1" required>
+    
+            <!-- Témoignage 2 -->
+            <div class="testimonial">
+                <img src="img/testimonial2.jpg" alt="Spectateur 2">
+                <p>"C'était un rêve devenu réalité d'entendre ces deux géants de la musique en live. Les arrangements étaient magnifiques et l'ambiance électrique !"</p>
+                <p class="author">Noah Tremblay, Toronto</p>
             </div>
-
-            <div class="form-group">
-                <label for="name">Nom complet :</label>
-                <input type="text" id="name" name="name" required>
+    
+            <!-- Témoignage 3 -->
+            <div class="testimonial">
+                <img src="img/testimonial3.jpg" alt="Spectateur 3">
+                <p>"Le concert à Prague était tout simplement incroyable. John Williams a fait revivre toutes les émotions de mes films préférés !"</p>
+                <p class="author">Blahoslava Dvořák, Prague</p>
             </div>
-
-            <div class="form-group">
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-
-            <button type="submit" class="cta-btn">Réserver maintenant</button>
-        </form>
+        </div>
     </section>
 
     <!-- Footer -->

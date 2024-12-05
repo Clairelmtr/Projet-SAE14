@@ -41,6 +41,17 @@
     color: #fff;
 }
 
+/* Style des liens dans le figcaption */
+.composer-link {
+    text-decoration: none; /* Pas de soulignement par défaut */
+    color: inherit;        /* Le texte prend la couleur de l'élément parent */
+    font-weight: bold;     /* On garde le texte en gras pour le mettre en valeur */
+}
+
+.composer-link:hover {
+    text-decoration: underline; /* Soulignement au survol */
+}
+
 figure {
     display: flex;
     justify-content:space-around;
@@ -130,55 +141,59 @@ figcaption {
 }
 
 /* ----------------------- Formulaire de réservation ----------------------- */
-#buy {
+/* Style pour la section des témoignages */
+#testimonials {
+    background-color: #f9f9f9;
     padding: 40px 20px;
-    background-color: #fff;
-    color: #333;
-    margin-top: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-top: 40px;
 }
 
-#buy h2 {
+#testimonials h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #333;
 }
 
-.form-group {
-    margin-bottom: 20px;
-    text-align: left;
+.testimonial-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
-.form-group label {
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-    display: block;
+.testimonial {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.form-group input,
-.form-group select {
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #b4b4b4;
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.testimonial p {
     font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
 }
 
-.cta-btn {
-    background-color: #da230b;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.testimonial .author {
+    font-weight: bold;
+    color: #333;
 }
 
-.cta-btn:hover {
-    background-color: #24a006;
+/* Effet au survol des témoignages */
+.testimonial:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
-
-
 
