@@ -140,7 +140,7 @@ figcaption {
     background-color: #353434;
 }
 
-/* ----------------------- Formulaire de réservation ----------------------- */
+/* ----------------------- Avis des personnes ----------------------- */
 /* Style pour la section des témoignages */
 #testimonials {
     background-color: #f9f9f9;
@@ -164,7 +164,7 @@ figcaption {
 
 .testimonial {
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #777373;
     border-radius: 8px;
     padding: 20px;
     width: 280px;
@@ -182,7 +182,7 @@ figcaption {
 
 .testimonial p {
     font-size: 1rem;
-    color: #666;
+    color: #302e2e;
     margin-bottom: 10px;
 }
 
