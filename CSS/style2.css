@@ -96,3 +96,57 @@ nav .container a {
     display: inline-block;
     margin-top: 15px;
 }
+
+/* Section des prochains concerts */
+#upcoming-concerts {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+#upcoming-concerts h2 {
+    font-size: 2.2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.upcoming-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.upcoming-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+.upcoming-item p {
+    margin: 10px 0;
+}
+
+.upcoming-item strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.upcoming-item span {
+    font-style: italic;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .upcoming-list {
+        grid-template-columns: 1fr;
+    }
+}
