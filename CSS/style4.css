@@ -1,0 +1,61 @@
+/* ------------------------- Section "À propos" --------------------------- */
+#about {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Photo de profil */
+.profile-photo {
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover; /* S'assure que l'image couvre bien la zone sans déformation */
+    border: 5px solid #ececec; /* Bordure douce autour de la photo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo img:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre portée */
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#about ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 1.1em;
+}
+
+#about ul li {
+    margin-bottom: 10px;
+}
+
+#about a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#about a:hover {
+    text-decoration: underline;
+}
