@@ -66,12 +66,6 @@ figure img {
     border: 3px solid #fff;
 }
 
-figcaption {
-    font-size: 1rem;
-    color: #ffffff;
-    margin-top: 10px;
-}
-
 /* ----------------------- Section Événements --------------------- */
 #events {
     text-align: center;
