@@ -12,6 +12,7 @@ body {
     color: #ececec;
     line-height: 1.6;
     overflow-x: hidden;
+    background-attachment: fixed;
 }
 
 /* ------------------------------ En-tête -------------------------------- */
