@@ -15,7 +15,7 @@
     margin-bottom: 20px;
 }
 
-/* Photo de profil */
+/* ------------------------- Photo de profil ---------------------------- */
 .profile-photo {
     margin-bottom: 20px;
 }
@@ -25,13 +25,13 @@
     height: 150px;
     border-radius: 50%;
     object-fit: cover; /* S'assure que l'image couvre bien la zone sans déformation */
-    border: 5px solid #ececec; /* Bordure douce autour de la photo */
+    border: 5px solid #ececec; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .profile-photo img:hover {
-    transform: scale(1.1); /* Agrandissement au survol */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ombre portée */
+    transform: scale(1.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 #about p {
@@ -58,4 +58,11 @@
 
 #about a:hover {
     text-decoration: underline;
+}
+
+/* ------------------------ Mettre en format tablette et téléphone -------------------------- */
+@media (max-width: 768px) {
+    .upcoming-list {
+        grid-template-columns: 1fr;
+    }
 }

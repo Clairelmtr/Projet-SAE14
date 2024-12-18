@@ -5,14 +5,14 @@
     font-size: 1.2rem;
     line-height: 1.8;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Fond légèrement transparent pour contraster avec le fond d'image */
+    background-color: rgba(0, 0, 0, 0.5); 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 #intro .highlight {
     font-weight: bold; /* Mettre en gras */
-    font-size: 1.2em; /* Agrandissement du texte */
+    font-size: 1.2em; 
     color: #fdfdfd; 
     display: inline-block; /* Empêche le texte de se casser avec les autres lignes */
     animation: highlightFadeIn 2s ease-in-out;
@@ -41,11 +41,11 @@
     color: #fff;
 }
 
-/* Style des liens dans le figcaption */
+/* -------------------------- Style des liens ------------------------*/
 .composer-link {
-    text-decoration: none; /* Pas de soulignement par défaut */
-    color: inherit;        /* Le texte prend la couleur de l'élément parent */
-    font-weight: bold;     /* On garde le texte en gras pour le mettre en valeur */
+    text-decoration: none; 
+    color: inherit;      
+    font-weight: bold;     
 }
 
 .composer-link:hover {
@@ -70,7 +70,7 @@ figure img {
 #events {
     text-align: center;
     padding: 40px;
-    background-color: rgba(0, 0, 0, 0.6); /* Fond semi-transparent */
+    background-color: rgba(0, 0, 0, 0.6); 
     color: white;
     margin-top: 20px;
     border-radius: 10px;
@@ -191,3 +191,17 @@ figure img {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* ------------------------ Mettre en format tablette et téléphone -------------------------- */
+@media (max-width: 768px) {
+    #event-details {
+        grid-template-columns: 1fr;
+    }
+
+    .prochain {
+        font-size: 28px;
+    }
+
+    .upcoming-list {
+        grid-template-columns: 1fr;
+    }
+}

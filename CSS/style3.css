@@ -1,11 +1,11 @@
-/* Corps de la page */
+/* --------------------------- Corps de la page ---------------------- */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     color: #333;
 }
 
-/* Header */
+/* -------------------------------- Header --------------------------- */
 header {
     background-color: #333;
     color: white;
@@ -17,7 +17,7 @@ header h1 {
     font-size: 2.5em;
 }
 
-/* Navigation */
+/* ----------------------------- Navigation -------------------------- */
 nav .container {
     list-style-type: none;
     padding: 0;
@@ -34,7 +34,7 @@ nav .container a {
     font-weight: bold;
 }
 
-/* Formulaire de réservation */
+/* --------------------- Formulaire de réservation ------------------- */
 #reservation-form {
     max-width: 600px;
     margin: 40px auto;
@@ -83,4 +83,11 @@ button.cta-btn {
 
 button.cta-btn:hover {
     background-color: #e74c3c;
+}
+
+/* ------------------------ Mettre en format tablette et téléphone -------------------------- */
+@media (max-width: 768px) {
+    .upcoming-list {
+        grid-template-columns: 1fr;
+    }
 }
