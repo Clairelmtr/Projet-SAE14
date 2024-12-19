@@ -26,23 +26,26 @@
     <!-- Section de présentation détaillée des événements -->
     <section id="event-details">
         <h2>Concerts en tête d'affiche :</h2>
+        <h4>(Attention mettre le volume pas trop haut)</h4>
 
         <!-- Concert Toronto -->
         <div class="event-detail">
             <h3>Concert Toronto - Hans Zimmer</h3>
             <img src="img/photo_concert_HZ.jpg" alt="Concert Toronto - Hans Zimmer">
-            <p>
+            <p >
                 <strong>Vendredi 23 avril 2025, Canada</strong><br>
-                Vivez l'expérience magique d'un concert hommage à Hans Zimmer, le maître des bandes originales de films cultes comme <strong>Inception</strong>, <strong>Interstellar</strong>, 
-                et <strong>Le Roi Lion</strong>. Lors de cette soirée, vous assisterez à une performance incroyable avec des musiciens en direct qui interpréteront les morceaux les plus célèbres de Zimmer. 
+                Vivez l'expérience magique d'un concert hommage à Hans Zimmer, le maître des bandes originales de films cultes comme <strong class="hover-text" data-sound="audio/Hans Zimmer - Time (Official Audio).mp3">Inception</strong>, 
+                <strong class="hover-text" data-sound="audio/Hans Zimmer - Cornfield Chase (Interstellar Soundtrack).mp3">Interstellar</strong>, 
+                et <strong class="hover-text" data-sound="audio/Hanz Zimmer - He Lives in You (From The Lion KingAudio Only).mp3">Le Roi Lion</strong>. Lors de cette soirée, vous assisterez à une performance incroyable avec des musiciens en direct qui interpréteront les morceaux les plus célèbres de Zimmer. 
                 Laissez-vous emporter par la puissance émotionnelle de sa musique dans une salle pleine d'énergie.
+            <audio id="audioPlayer"></audio>
             </p>
             <ul>
                 <li>Durée : 2h15</li>
                 <li>Lieu : Scène principale, Toronto</li>
                 <li>Musiciens en direct : Orchestre symphonique et chorale</li>
             </ul>
-            <p class="highlight">Ce concert est un must pour tous les fans de Hans Zimmer !</p>
+            <p class="highlight">Ce concert est un souvenir pour tous les fans de Hans Zimmer !</p>
             <a href="page3.html" class="btn">Réservez vos places</a>
         </div>
 
@@ -54,8 +57,10 @@
                 <strong>Vendredi 21 février 2025, Paris</strong><br>
                 Ne manquez pas ce concert unique réunissant deux légendes de la musique de film : Hans Zimmer et John Williams. 
                 Vous assisterez à une soirée où les plus grandes œuvres des deux compositeurs seront jouées, 
-                allant de la magie de <strong>Harry Potter</strong> à l'intensité de <strong>Gladiator</strong> et <strong>Pirates des Caraïbes</strong>. 
+                allant de la magie de <strong class="hover-text" data-sound="audio/John Williams - HARRY POTTER.mp3">Harry Potter</strong> à l'intensité de 
+                <strong class="hover-text" data-sound="audio/Now We Are Free.mp3">Gladiator</strong> et <strong class="hover-text" data-sound="audio/Hes a Pirate.mp3">Pirates des Caraïbes</strong>. 
                 Un véritable voyage à travers les bandes sonores de films mémorables.
+                <audio id="audioPlayer"></audio>
             </p>
             <ul>
                 <li>Durée : 3h avec entracte</li>
@@ -72,9 +77,11 @@
             <img src="img/photo_concert_JW.jpeg" alt="Concert Prague - John Williams">
             <p>
                 <strong>Vendredi 7 décembre 2025, Prague</strong><br>
-                Découvrez l'œuvre de John Williams à travers une série de performances magistrales. De <strong>Star Wars</strong> à <strong>Jurassic Park</strong>, 
+                Découvrez l'œuvre de John Williams à travers une série de performances magistrales. De <strong class="hover-text" data-sound="audio/Star Wars Main Theme.mp3">Star Wars</strong> à 
+                <strong class="hover-text" data-sound="audio/Theme From Jurassic Park.mp3">Jurassic Park</strong>, 
                 ce concert vous plongera dans un univers cinématographique inoubliable. 
                 La performance sera accompagnée par un orchestre symphonique qui interprétera les compositions épiques de Williams, créant une expérience immersive et magique.
+                <audio id="audioPlayer"></audio>
             </p>
             <ul>
                 <li>Durée : 2h</li>
@@ -116,6 +123,7 @@
         <p>Email : contact@concerttickets.com</p>
         <p>Tel : 02 23 72 41 97</p>
     </footer>
-
+    
+<script src="Script/script.js"></script>
 </body>
 </html>
