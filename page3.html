@@ -13,7 +13,7 @@
     <!-- Header -->
     <header>
         <h1> Concerts : John Williams et Hans Zimmer</h1>
-        <nav class="container">
+        <nav class="bouton">
             <ul>
                 <li><a class="btn" href="index.html">Accueil</a></li>
                 <li><a class="btn" href="page2.html">Événements</a></li>
@@ -24,9 +24,9 @@
     </header>
 
     <!-- Formulaire de réservation -->
-    <section id="reservation-form">
+    <section id="reservation">
         <h2>Réservez vos billets maintenant</h2>
-            <div class="form-group">
+            <div class="liste">
                 <label for="concert">Choisissez l'événement :</label>
                 <select>
                     <option>Concert Toronto - Vendredi 23 avril 2025</option>
@@ -38,27 +38,27 @@
                 </select>
             </div>
 
-            <div class="form-group">
+            <div class="liste">
                 <label for="quantity">Nombre de places :</label>
                 <input type="number" id="quantity" name="quantity" min="1" required>
             </div>
 
-            <div class="form-group">
+            <div class="liste">
                 <label for="name">Nom complet :</label>
                 <input type="text" id="name" name="name" required>
             </div>
 
-            <div class="form-group">
+            <div class="liste">
                 <label for="email">Email :</label>
                 <input type="email" id="email" name="email" required>
             </div>
 
-            <div class="form-group">
+            <div class="liste">
                 <label for="phone">Numéro de téléphone :</label>
                 <input type="tel" id="phone" name="phone" required>
             </div>
 
-            <button type="submit" class="cta-btn">Confirmer la réservation</button>
+            <button type="submit" class="confirmation">Confirmer la réservation</button>
         </form>
     </section>
 

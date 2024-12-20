@@ -109,7 +109,7 @@ nav .container a {
         font-weight: bold;
 }
 
-#upcoming-concerts {
+#prochain-concerts {
     background-color: #fff;
     padding: 40px 20px;
     margin-top: 40px;
@@ -119,14 +119,14 @@ nav .container a {
     margin: 40px auto;
 }
 
-#upcoming-concerts h2 {
+#prochain-concerts h2 {
     font-size: 2.2em;
     color: #333;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.upcoming-list {
+.prochaine-liste {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -134,7 +134,7 @@ nav .container a {
     list-style-type: none;
 }
 
-.upcoming-item {
+.date{
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
@@ -142,16 +142,16 @@ nav .container a {
     font-size: 1.1em;
 }
 
-.upcoming-item p {
+.date p {
     margin: 10px 0;
 }
 
-.upcoming-item strong {
+.date strong {
     font-weight: bold;
     color: #333;
 }
 
-.upcoming-item span {
+.date span {
     font-style: italic;
     color: #666;
 }

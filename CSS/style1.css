@@ -30,25 +30,25 @@
 }
 
 /* --------------------- Section des compositeurs ------------------- */
-#composers {
+#compositeurs {
     text-align: center;
     padding: 40px 20px;
 }
 
-#composers h2 {
+#compositeurs h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #fff;
 }
 
 /* -------------------------- Style des liens ------------------------*/
-.composer-link {
+.lien-compositeur {
     text-decoration: none; 
     color: inherit;      
     font-weight: bold;     
 }
 
-.composer-link:hover {
+.lien-compositeur:hover {
     text-decoration: underline; /* Soulignement au survol */
 }
 
@@ -67,7 +67,7 @@ figure img {
 }
 
 /* ----------------------- Section Événements --------------------- */
-#events {
+#evenements {
     text-align: center;
     padding: 40px;
     background-color: rgba(0, 0, 0, 0.6); 
@@ -77,12 +77,12 @@ figure img {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-#events h2 {
+#evenements h2 {
     font-size: 2rem;
     margin-bottom: 30px;
 }
 
-.event-list {
+.event-liste {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -136,27 +136,27 @@ figure img {
 
 /* ----------------------- Avis des personnes ----------------------- */
 /* Style pour la section des témoignages */
-#testimonials {
+#temoignages {
     background-color: #f9f9f9;
     padding: 40px 20px;
     text-align: center;
     margin-top: 40px;
 }
 
-#testimonials h2 {
+#temoignages h2 {
     font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
 }
 
-.testimonial-list {
+.liste-temoignage {
     display: flex;
     justify-content: space-around;
     gap: 30px;
     flex-wrap: wrap;
 }
 
-.testimonial {
+.témoignage {
     background-color: #fff;
     border: 1px solid #777373;
     border-radius: 8px;
@@ -167,26 +167,26 @@ figure img {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.testimonial img {
+.témoignage img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-bottom: 15px;
 }
 
-.testimonial p {
+.témoignage p {
     font-size: 1rem;
     color: #302e2e;
     margin-bottom: 10px;
 }
 
-.testimonial .author {
+.témoignage .author {
     font-weight: bold;
     color: #333;
 }
 
 /* Effet au survol des témoignages */
-.testimonial:hover {
+.témoignage:hover {
     transform: translateY(-5px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }

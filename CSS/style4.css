@@ -16,11 +16,11 @@
 }
 
 /* ------------------------- Photo de profil ---------------------------- */
-.profile-photo {
+.profil-photo {
     margin-bottom: 20px;
 }
 
-.profile-photo img {
+.profil-photo img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -29,7 +29,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.profile-photo img:hover {
+.profil-photo img:hover {
     transform: scale(1.1); 
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
